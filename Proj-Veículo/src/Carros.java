@@ -31,5 +31,15 @@ public class Carros {
     public void setOpcionais(String opcionais) {
         this.opcionais = opcionais;
     }
+
+    public void salvar() {
+        System.out.println("Carro salvo com sucesso");
+    }
+    public void alterar() {
+        System.out.println("Carro alterado com sucesso");
+    }
+    public void excluir() {
+        System.out.println("Carro excluído com sucesso");
+    }
     
 }

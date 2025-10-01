@@ -13,4 +13,14 @@ public class Motos {
     public void setCilindrada(Integer cilindrada) {
         this.cilindrada = cilindrada;
     }
+
+    public void salvar() {
+        System.out.println("Moto salva com sucesso");
+    }
+    public void alterar() {
+        System.out.println("Moto alterada com sucesso");
+    }
+    public void excluir() {
+        System.out.println("Moto excluída com sucesso");
+    }
 }

@@ -14,4 +14,13 @@ public class ClasseGenerica {
         this.nome = nome;
     }
 
+    public void salvar() {
+        System.out.println("Classe Generica salvo com sucesso");
+    }
+    public void alterar() {
+        System.out.println("Classe Generica alterado com sucesso");
+    }
+    public void excluir() {
+        System.out.println("Classe Generica excluído com sucesso");
+    }
 }
