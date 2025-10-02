@@ -50,15 +50,6 @@ public class Veiculo extends ClasseGenerica{
     public void setUnico_dono(Boolean unico_dono) {
         this.unico_dono = unico_dono;
     }
-
-    public void salvar() {
-        System.out.println("Veículo salvo com sucesso");
-    }
-    public void alterar() {
-        System.out.println("Veículo alterado com sucesso");
-    }
-    public void excluir() {
-        System.out.println("Veículo excluído com sucesso");
-    }
+    
 
 }

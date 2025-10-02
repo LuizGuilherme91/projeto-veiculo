@@ -15,7 +15,7 @@ public class Garagem extends ClasseGenerica{
         this.cidade = cidade;
     }
 
-
+    @Override
     public void salvar() {
         System.out.println("Garagem salva com sucesso");
     }

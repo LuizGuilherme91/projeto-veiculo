@@ -1,9 +1,9 @@
-public class Motos {
+public class Motos extends Veiculo{
     private Integer cilindrada;
 
     public Motos() {}
 
-    public Motos(Integer cilindrada) {
+    public Motos(String nome, Integer ano, Integer modelo, String cor, String placa, Boolean unico_dono, Integer cilindrada) {
         this.cilindrada = cilindrada;
     }
 
@@ -14,9 +14,14 @@ public class Motos {
         this.cilindrada = cilindrada;
     }
 
+
+    
+    @Override
     public void salvar() {
         System.out.println("Moto salva com sucesso");
+        super.salvar();
     }
+
     public void alterar() {
         System.out.println("Moto alterada com sucesso");
     }
